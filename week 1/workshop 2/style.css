@@ -1,0 +1,9 @@
+#square {
+    list-style-type: square;
+}
+
+#Naast
+li {
+    display: inline-block;
+    margin: 0 10px;
+}

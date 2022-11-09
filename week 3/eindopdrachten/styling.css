@@ -1,0 +1,671 @@
+body {
+    background-color: black
+}
+
+#toolbar {
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -8px;
+    height: 55px;
+    width: 1500px;
+    border: solid red;
+    background-color: rgb(0, 0, 0);
+}
+
+#achtergrond {
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+#carshop {
+    position: absolute;
+    font-size: 60px;
+    margin-top: -1px;
+    color: red;
+}
+
+#Home {
+    border: none;
+    position: absolute;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    margin-left: 800px;
+    margin-top: -5px;
+    width: 100px;
+    height: 55px;
+}
+
+#Vergelijken {
+    border: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    margin-left: 900px;
+    margin-top: -5px;
+    width: 100px;
+    height: 55px;
+}
+
+#winkelwagen {
+    border: none;
+    position: absolute;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    margin-left: 1000px;
+    margin-top: -5px;
+    width: 100px;
+    height: 55px;
+}
+
+#automerk {
+    position: absolute;
+    border: solid red 6px;
+    height: 250px;
+    width: 160px;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#Merktext {
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: red;
+}
+
+#automerktext {
+    position: absolute;
+    margin-top: 110px;
+    border: none;
+    color: red;
+
+}
+
+#Dodge {
+    background-color: transparent;
+    border: none;
+    border: solid red;
+    width: 100px;
+    margin-top: 20px;
+    color: red;
+}
+
+#Bmw {
+    background-color: transparent;
+    border: none;
+    border: solid red;
+    width: 100px;
+    margin-top: 2px;
+    color: red;
+}
+
+#Mercedes {
+    background-color: transparent;
+    border: none;
+    border: solid red;
+    width: 100px;
+    margin-top: 2px;
+    color: red;
+}
+
+#volkswagen {
+    background-color: transparent;
+    border: none;
+    border: solid red;
+    width: 100px;
+    margin-top: 2px;
+    color: red;
+}
+
+#Nissan {
+    background-color: transparent;
+    border: none;
+    border: solid red;
+    width: 100px;
+    margin-top: 2px;
+    color: red;
+}
+
+#Toyota {
+    background-color: transparent;
+    border: none;
+    border: solid red;
+    width: 100px;
+    margin-top: 2px;
+    color: red;
+}
+
+#Chevrolet {
+    background-color: transparent;
+    border: none;
+    border: solid red;
+    width: 100px;
+    margin-top: 2px;
+    color: red;
+}
+
+#topsnelheid {
+    position: absolute;
+    border: solid red 6px;
+    height: 150px;
+    width: 160px;
+    margin-top: 390px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#topsnelheidtext {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: red;
+}
+
+#snelheid {
+    position: absolute;
+    margin-top: 400px;
+    border: none;
+
+}
+
+#nulhonderd {
+    background-color: transparent;
+    border: none;
+    border: solid red;
+    width: 100px;
+    margin-top: 20px;
+    color: red;
+}
+
+#honderdtwee {
+    background-color: transparent;
+    border: none;
+    border: solid red;
+    width: 100px;
+    margin-top: 2px;
+    color: red;
+}
+
+#tweedriehonderd {
+    background-color: transparent;
+    border: none;
+    border: solid red;
+    width: 100px;
+    margin-top: 2px;
+    color: red;
+}
+
+#drievierhonderd {
+    background-color: transparent;
+    border: none;
+    border: solid red;
+    width: 100px;
+    margin-top: 2px;
+    color: red;
+}
+
+#hellblok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 100px;
+    background-color: red;
+}
+
+#hellpick {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 405px;
+}
+
+#helltext {
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 409px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#chargerblok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+    background-color: rgb(255, 0, 0);
+}
+
+#chargerpick {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 705px;
+}
+
+#chargertext {
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 704px;
+    color: black;
+    font-size: 17px;
+}
+
+#durangoblok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 100px;
+    background-color: red;
+}
+
+#durangopick {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 1005px;
+}
+
+#durangotext {
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 1004px;
+    color: black;
+    font-size: 17px;
+}
+
+#m5blok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 500px;
+    background-color: red;
+}
+
+#m5pick {
+    position: absolute;
+    margin-top: 505px;
+    margin-left: 1005px;
+}
+
+#m5text {
+    position: absolute;
+    margin-top: 645px;
+    margin-left: 1004px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#bmwblok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 500px;
+    background-color: rgb(255, 0, 0);
+}
+
+#bmwpick {
+    position: absolute;
+    margin-top: 505px;
+    margin-left: 705px;
+}
+
+#bmwtext {
+    position: absolute;
+    margin-top: 645px;
+    margin-left: 704px;
+    color: black;
+    font-size: 17px;
+}
+
+#m1blok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 500px;
+    background-color: red;
+}
+
+#m1pick {
+    position: absolute;
+    margin-top: 505px;
+    margin-left: 405px;
+}
+
+#m1text {
+    position: absolute;
+    margin-top: 645px;
+    margin-left: 400px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#slblok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 900px;
+    background-color: red;
+}
+
+#slpick {
+    position: absolute;
+    margin-top: 905px;
+    margin-left: 405px;
+}
+
+#sltext {
+    position: absolute;
+    margin-top: 1045px;
+    margin-left: 400px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#AMGblok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 900px;
+    background-color: rgb(255, 0, 0);
+}
+
+#AMGpick {
+    position: absolute;
+    margin-top: 905px;
+    margin-left: 705px;
+}
+
+#AMGtext {
+    position: absolute;
+    margin-top: 1045px;
+    margin-left: 704px;
+    color: black;
+    font-size: 17px;
+}
+
+#mk1blok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 900px;
+    background-color: red;
+}
+
+#mk1pick {
+    position: absolute;
+    margin-top: 905px;
+    margin-left: 1005px;
+}
+
+#mk1text {
+    position: absolute;
+    margin-top: 1045px;
+    margin-left: 1004px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#mk2blok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 1300px;
+    background-color: red;
+}
+
+#mk2pick {
+    position: absolute;
+    margin-top: 1305px;
+    margin-left: 405px;
+}
+
+#mk2text {
+    position: absolute;
+    margin-top: 1445px;
+    margin-left: 400px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#skylineblok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 1300px;
+    background-color: rgb(255, 0, 0);
+}
+
+#skylinepick {
+    position: absolute;
+    margin-top: 1305px;
+    margin-left: 705px;
+}
+
+#skylinetext {
+    position: absolute;
+    margin-top: 1445px;
+    margin-left: 704px;
+    color: black;
+    font-size: 17px;
+}
+
+#R35blok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 1300px;
+    background-color: red;
+}
+
+#R35pick {
+    position: absolute;
+    margin-top: 1305px;
+    margin-left: 1005px;
+}
+
+#R35text {
+    position: absolute;
+    margin-top: 1445px;
+    margin-left: 1004px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#S12blok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 1700px;
+    background-color: red;
+}
+
+#S12pick {
+    position: absolute;
+    margin-top: 1705px;
+    margin-left: 1005px;
+}
+
+#S12text {
+    position: absolute;
+    margin-top: 1845px;
+    margin-left: 1004px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#S200blok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 1700px;
+    background-color: rgb(255, 0, 0);
+}
+
+#S200pick {
+    position: absolute;
+    margin-top: 1705px;
+    margin-left: 705px;
+}
+
+#S200text {
+    position: absolute;
+    margin-top: 1845px;
+    margin-left: 705px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#Farladyblok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 1700px;
+    background-color: red;
+}
+
+#Farladypick {
+    position: absolute;
+    margin-top: 1705px;
+    margin-left: 405px;
+}
+
+#Farladytext {
+    position: absolute;
+    margin-top: 1845px;
+    margin-left: 400px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#SupraMK4blok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 2100px;
+    background-color: red;
+}
+
+#SupraMK4pick {
+    position: absolute;
+    margin-top: 2105px;
+    margin-left: 405px;
+}
+
+#SupraMK4text {
+    position: absolute;
+    margin-top: 2245px;
+    margin-left: 400px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#SupraMK3blok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 2100px;
+    background-color: rgb(255, 0, 0);
+}
+
+#SupraMK3pick {
+    position: absolute;
+    margin-top: 2105px;
+    margin-left: 705px;
+}
+
+#SupraMK3text {
+    position: absolute;
+    margin-top: 2245px;
+    margin-left: 705px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#Lotusblok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 2100px;
+    background-color: red;
+}
+
+#Lotuspick {
+    position: absolute;
+    margin-top: 2105px;
+    margin-left: 1005px;
+}
+
+#Lotustext {
+    position: absolute;
+    margin-top: 2245px;
+    margin-left: 1004px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+
+
+#Belairblok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 2500px;
+    background-color: rgb(255, 0, 0);
+}
+
+#Belairpick {
+    position: absolute;
+    margin-top: 2505px;
+    margin-left: 405px;
+}
+
+#Belairtext {
+    position: absolute;
+    margin-top: 2645px;
+    margin-left: 405px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+#Z28blok {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 2500px;
+    background-color: red;
+}
+
+#Z28pick {
+    position: absolute;
+    margin-top: 2505px;
+    margin-left: 705px;
+}
+
+#Z28text {
+    position: absolute;
+    margin-top: 2645px;
+    margin-left: 700px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}

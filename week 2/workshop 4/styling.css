@@ -1,0 +1,85 @@
+#container {
+    width: 935px;
+    margin: 0 auto;
+}
+
+div {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#header {
+    position: relative;
+    width: 890px;
+    height: 100px;
+}
+#sidebar {
+    position: relative;
+    width: 180px;
+    height: 500px;
+    float: left;
+}
+#sidebar1 {
+    position: absolute;
+    height: 60px;
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#sidebar2 {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-top: 125px;
+    margin-left:20px ;
+}
+#sidebar3 {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-top: 125px;
+    margin-left:120px ;
+}
+#sidebar4 {
+    position: absolute;
+    height: 100px;
+    width: 160px;
+    margin-top: 225px;
+    margin-left: 20px;
+}
+#content {
+    position: relative;
+    width: 670px;
+    height: 500px;
+    float: left;
+
+}
+#footer {
+    position: relative; 
+    width: 893px;
+    height: 50px;
+    clear: left;
+}
+#logo {
+    max-width: 120%;
+    max-height: 120%;
+    margin-top: -10px;
+}
+
+#zeven {
+    height: 20px;
+    width: 150px;
+    margin-left: 700px;
+}
+#vijf {
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+#zes {
+    height: 150px;
+    width: 150px;
+    float: right;
+}

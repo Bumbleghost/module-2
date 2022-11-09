@@ -1,0 +1,116 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+body {
+    background-color: rgb(3, 180, 48);
+}
+
+#kaart1 {
+    background-color: white;
+    height: 205px;
+    width: 150px;
+    border-radius: 5%;
+}
+
+#kaart2 {
+    background-color: white;
+    height: 205px;
+    width: 150px;
+    border-radius: 5%;
+    margin-left: 150px;
+    color: rgb(221, 6, 13)
+}
+
+#kaart3 {
+    background-color: white;
+    height: 205px;
+    width: 150px;
+    border-radius: 5%;
+    margin-left: 300px;
+}
+
+
+#kaart4 {
+    background-color: white;
+    height: 205px;
+    width: 150px;
+    border-radius: 5%;
+    margin-left: 450px;
+    color: rgb(221, 6, 13);
+}
+
+.cornernumbertop {
+   padding-left: 5px;
+   padding-top: 1px;
+}
+
+.pip {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.cornernumberbottom {
+    padding-left: 5px;
+    rotate: 180deg;
+}
+
+.smallclovertop {
+    background-color: white;
+}
+
+.smallclovertop img {
+    height: 17px;
+    padding-left: 5px;
+}
+
+.smallcloverbottom {
+    background-color: white;
+}
+
+.smallcloverbottom img {
+    height: 17px;
+    padding-right: 130px;
+    rotate: 180deg;
+    padding-bottom: 25px;
+}
+
+.smallhearttop img {
+    height: 17px;
+    padding-left: 5px;
+}
+
+.smallheartbottom img {
+    height: 17px;
+    padding-left: 5px;
+    rotate: 180deg;
+    padding-right: 130px;
+    padding-bottom: 25px;
+}
+
+.smallspadetop img {
+    height: 17px;
+    padding-left: 5px;
+}
+
+.smallspadebottom img {
+    height: 17px;
+    padding-left: 5px;
+    rotate: 180deg;
+    padding-right: 130px;
+    padding-bottom: 25px;
+}
+
+.smalldiamondstop img {
+    height: 17px;
+    padding-left: 5px;
+}
+
+.smalldiamondsbottom img {
+    height: 17px;
+    padding-left: 5px;
+    rotate: 180deg;
+    padding-right: 130px;
+    padding-bottom: 25px;
+}

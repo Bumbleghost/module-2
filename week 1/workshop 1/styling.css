@@ -1,0 +1,48 @@
+#logo {
+    background-color: black;
+}
+
+#header {
+    position: absolute;
+    margin-left: 600px;
+    color:white;
+    background-color: black;
+    text-size-adjust: 100px;
+    font-size: 75px;
+    color: blue
+}
+#primary {
+    border: 5px solid blue;
+    margin-left: 849px;
+    position: absolute;
+    color :blue;
+    background-color: black;
+
+}
+#photo {
+    position: absolute;
+    background-color: black;
+
+}
+#primari {
+
+}
+#second {
+    color:black;
+    position: absolute;
+    margin-top: 250px;
+}
+#thirth {
+    margin-top: 250px;
+    position: absolute;
+}
+#fourth {
+    margin-top: 290px;
+    margin-left: 735px;
+    position: absolute;
+
+
+}
+#footer {
+
+}
